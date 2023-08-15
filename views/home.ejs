@@ -1,0 +1,14 @@
+<%- include("partials/header") -%>
+
+<h1>Home</h1>
+
+<p><%=homeContent%></p>
+<%# This is a new for loop i did the old version in home2.ejs file %>
+    <% posts.forEach((post)=>{ %>    
+        <h3><%=post.title%></h3>
+        <p><%=post.content.substring(0,100) + "..."%> <a href="/posts/<%=post._id%>">Read More</a></p>
+   <% }); %>
+
+
+<%- include("partials/footer") -%>
+
