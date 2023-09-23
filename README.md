@@ -45,8 +45,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://blog-twnh.onrender.com/contact)
-
 A Daily Journal
 
 <!-- USAGE EXAMPLES -->
@@ -94,26 +92,37 @@ request
 1. Get a free MongoDB Key at <a href="https://www.mongodb.com/">MongoDB</a>
 
 2. Clone the repo
-   ```sh
+    ```sh
    git clone https://github.com/EQITechG/Blog_Post
    ```
 3. Install Nodemon
- ```sh
+    ```sh
    npm install -g nodemon
    ```
 4. Initiate NPM 
-   ```sh
-   npm init
-   ```
-5. Install NPM packages
     ```sh
-  npm install body-parser ejs express lodash mongose request
-  ```
+   npm init 
+   ```
+
+5. Install NPM packages
+    ```sh 
+    npm i body-parser ejs express lodash mongose request
+  
 6. Run app
-   ```sh
-   nodemon app.js
+    ```sh
+   nodemon app.js 
    ```
 7. Use app by visiting 
-   ```sh
-   localhost:3000
+     ```sh
+   localhost:3000 
    ```
+
+
+
+
+
+
+
+
+
+
