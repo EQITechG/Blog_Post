@@ -60,6 +60,7 @@ Enter  ```<url/compose>``` to publish entry and ```<url/delete>```to delete entr
 * EJS
 * MongoDB
 * Mongose
+* CSS
 
 <!-- GETTING STARTED -->
 ## Getting Started
